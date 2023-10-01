@@ -106,7 +106,9 @@ function update(){
         }
     });
     document.addEventListener('click',()=>{
+            if(bird.y >= 30){
                 vely=-6
+            }
     });
 
 }
