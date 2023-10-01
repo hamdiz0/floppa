@@ -105,6 +105,9 @@ function update(){
             }
         }
     });
+    document.addEventListener('click',()=>{
+                vely=-6
+    });
 
 }
 function place(){
